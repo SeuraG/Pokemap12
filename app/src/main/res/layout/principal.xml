@@ -19,9 +19,10 @@
 
     <Button
         android:id="@+id/ingreso_mapa"
-        android:layout_width="178dp"
-        android:layout_height="85dp"
-        android:layout_marginTop="92dp"
+        android:layout_width="181dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginBottom="84dp"
         android:text="@string/ingreso_mapa"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.484"
@@ -32,6 +33,7 @@
         android:id="@+id/ingreso_perfil"
         android:layout_width="181dp"
         android:layout_height="78dp"
+        android:layout_marginTop="84dp"
         android:layout_marginBottom="84dp"
         android:text="@string/ingreso_perfil"
         app:layout_constraintBottom_toBottomOf="parent"
