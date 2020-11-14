@@ -49,7 +49,7 @@ public class dUsuario {
 
     public ArrayList<Usuario> selectUsuarios(){
         ArrayList<Usuario> lista=new ArrayList<Usuario>();
-        Cursor cr=sql.rawQuery("select * from usuario", null);
+        Cursor cr=sql.rawQuery("select * from USUARIO", null);
         if (cr!=null&&cr.moveToFirst()){
             do {
                 Usuario u=new Usuario();
