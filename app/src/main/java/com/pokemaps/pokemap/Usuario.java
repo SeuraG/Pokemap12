@@ -1,4 +1,4 @@
-package com.example.pokemap;
+package com.pokemaps.pokemap;
 
 public class Usuario {
     int Id;

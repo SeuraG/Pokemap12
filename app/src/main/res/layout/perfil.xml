@@ -5,25 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="70dp">
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fontFamily="casual"
-        android:text="Nombre de Poke Entrenador"
-        android:textColor="#FFFF"
-        android:textSize="20dp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/nombreUsuario"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fontFamily="casual"
-        android:text="PokeGenio"
-        />
+    android:padding="70dp"
+    android:background="#EA1E1E"
+    >
 
     <TextView
         android:id="@+id/textView2"
@@ -32,22 +16,40 @@
         android:fontFamily="casual"
         android:text="Elige tu Pokemon"
         android:textColor="#FFFF"
-        android:textSize="20dp"
+        android:textSize="18sp"
         android:textStyle="bold" />
 
     <Spinner
         android:id="@+id/item"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="134dp"
         android:backgroundTint="#FDFDFD"
         android:backgroundTintMode="multiply"
         android:padding="30dp"
         android:popupBackground="@android:color/holo_green_dark" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/fondo"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="356dp"
         app:srcCompat="@drawable/entrenador" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnmujer"
+            android:layout_width="141dp"
+            android:layout_height="43dp"
+            android:text="Chico" />
+
+        <Button
+            android:id="@+id/btnhombre"
+            android:layout_width="133dp"
+            android:layout_height="44dp"
+            android:text="Chica" />
+    </LinearLayout>
 
 </LinearLayout>

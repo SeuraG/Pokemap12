@@ -1,4 +1,4 @@
-package com.example.pokemap;
+package com.pokemaps.pokemap;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -14,12 +14,12 @@ import android.os.Bundle;
 import android.provider.Settings;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
 
 public class Principal extends AppCompatActivity {
 
     Button botonperfil;
     Button botonmapa;
+    Button botonpokemones;
     SensorManager sensorManager;
     Sensor sensor;
     SensorEventListener sensorEventListener;
@@ -59,10 +59,10 @@ public class Principal extends AppCompatActivity {
 
 
         botonperfil = (Button) findViewById(R.id.ingreso_perfil);
-        botonperfil.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(Principal.this, Perfil.class));
+                botonperfil.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        startActivity(new Intent(Principal.this, Perfil.class));
             }
         });
 
@@ -76,6 +76,13 @@ public class Principal extends AppCompatActivity {
             }
         }
         );
+        botonpokemones = (Button) findViewById(R.id.ingreso_pokemones);
+        botonpokemones.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Principal.this,Pokemon.class));
+            }
+        });
         getAlertaNotGps();
         }
 

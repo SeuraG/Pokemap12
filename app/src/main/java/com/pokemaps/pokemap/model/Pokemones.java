@@ -1,4 +1,4 @@
-package com.example.pokemap.model;
+package com.pokemaps.pokemap.model;
 
 public class Pokemones
 {

@@ -1,4 +1,4 @@
-package com.example.pokemap.adapter;
+package com.pokemaps.pokemap.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -6,11 +6,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
-import android.widget.ListView;
 import android.widget.TextView;
 
-import com.example.pokemap.R;
-import com.example.pokemap.model.Pokemones;
+import com.pokemaps.pokemap.R;
+import com.pokemaps.pokemap.model.Pokemones;
 
 import java.util.List;
 

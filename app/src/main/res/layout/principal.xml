@@ -21,11 +21,10 @@
         android:id="@+id/ingreso_mapa"
         android:layout_width="181dp"
         android:layout_height="78dp"
-        android:layout_marginTop="84dp"
-        android:layout_marginBottom="84dp"
+        android:layout_marginTop="40dp"
         android:text="@string/ingreso_mapa"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintHorizontal_bias="0.486"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
@@ -33,21 +32,33 @@
         android:id="@+id/ingreso_perfil"
         android:layout_width="181dp"
         android:layout_height="78dp"
-        android:layout_marginTop="84dp"
-        android:layout_marginBottom="84dp"
+        android:layout_marginBottom="160dp"
         android:text="@string/ingreso_perfil"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintHorizontal_bias="0.486"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/nombreCreador"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
         android:text="Powered By SeuraG"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/ingreso_pokemones"
+        android:layout_width="184dp"
+        android:layout_height="71dp"
+        android:text="Pokemones"
+        app:layout_constraintBottom_toTopOf="@+id/nombreCreador"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ingreso_perfil" />
+        app:layout_constraintTop_toBottomOf="@+id/ingreso_perfil"
+        app:layout_constraintVertical_bias="0.357" />
 </androidx.constraintlayout.widget.ConstraintLayout>

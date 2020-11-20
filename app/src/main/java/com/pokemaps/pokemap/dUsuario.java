@@ -1,4 +1,4 @@
-package com.example.pokemap;
+package com.pokemaps.pokemap;
 
 import android.content.ContentValues;
 import android.content.Context;
