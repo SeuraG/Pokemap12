@@ -20,10 +20,6 @@ import com.google.android.gms.maps.model.MarkerOptions;
 public class mapa extends FragmentActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
-    private Marker marcador;
-    double lat = 0.0;
-    double ing = 0.0;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -52,8 +52,8 @@
 
     <Button
         android:id="@+id/ingreso_pokemones"
-        android:layout_width="184dp"
-        android:layout_height="71dp"
+        android:layout_width="181dp"
+        android:layout_height="78dp"
         android:text="Pokemones"
         app:layout_constraintBottom_toTopOf="@+id/nombreCreador"
         app:layout_constraintEnd_toEndOf="parent"

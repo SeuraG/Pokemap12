@@ -21,7 +21,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.pokemaps.pokemap.Registrar"></activity>
+        <activity android:name=".mapa"></activity>
+        <activity android:name=".Registrar" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -34,19 +35,16 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
-        <activity
-            android:name="com.pokemaps.pokemap.mapa"
-            android:label="@string/title_activity_mapa" />
-        <activity android:name="com.pokemaps.pokemap.MainActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.pokemaps.pokemap.Principal" />
-        <activity android:name="com.pokemaps.pokemap.Perfil" />
-        <activity android:name="com.pokemaps.pokemap.Pokemon" />
+        <activity android:name=".Principal" />
+        <activity android:name=".Perfil" />
+        <activity android:name=".Pokemon" />
     </application>
 
 </manifest>
