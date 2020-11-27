@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "957518126812",
+    "firebase_url": "https://pokemap-296314.firebaseio.com",
+    "project_id": "pokemap-296314",
+    "storage_bucket": "pokemap-296314.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957518126812:android:154fbbc783c2f881951e19",
+        "android_client_info": {
+          "package_name": "com.pokemaps.pokemap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "957518126812-5vs5hsoa25cfhkvrnf80rc2at9m7921s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pokemaps.pokemap",
+            "certificate_hash": "ec9ca6b67789ebb0d9715e6e21070b1b7a981307"
+          }
+        },
+        {
+          "client_id": "957518126812-desq7p04njf8bsitaps83s34100ohaq6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3kqfHe1cFQj2k0kJCBEE8tV-LCgKnsW0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "957518126812-desq7p04njf8bsitaps83s34100ohaq6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
