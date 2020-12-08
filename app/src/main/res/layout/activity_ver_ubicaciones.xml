@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="LabelFor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EA1E1E"
+    >
+
+    <EditText
+        android:id="@+id/txtNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtCi"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="120dp"
+        android:autofillHints=""
+        android:inputType="text"
+        android:focusable="false"
+        android:textColor="#FFFF"
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtUb"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="10dp"
+        android:text="Direccion"
+        android:textColor="#FFFF" />
+
+    <EditText
+        android:id="@+id/txtUb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_Cons"
+        android:layout_alignEnd="@+id/txtNo"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="-12dp"
+        android:layout_marginBottom="136dp"
+        android:autofillHints=""
+        android:inputType="text"
+        android:focusable="false"
+        android:textColor="#FFFF"
+        />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtCi"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginBottom="6dp"
+        android:text="Ciudad"
+        android:textColor="#FFFF" />
+
+    <EditText
+        android:id="@+id/txtCi"
+        android:layout_width="387dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_Cons"
+        android:layout_alignEnd="@+id/txtUb"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="42dp"
+        android:autofillHints=""
+        android:inputType="text"
+        android:focusable="false"
+        android:textColor="#FFFF"
+        />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtNi"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="4dp"
+        android:text="Apodo de pokemon"
+        android:textColor="#FFFF" />
+
+    <EditText
+        android:id="@+id/txtNi"
+        android:layout_width="397dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView9"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="39dp"
+        android:autofillHints=""
+        android:inputType="text"
+        android:textColor="#FFFF" />
+
+    <Button
+        android:id="@+id/button_Cons"
+        android:layout_width="165dp"
+        android:layout_height="103dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="129dp"
+        android:layout_marginEnd="117dp"
+        android:layout_marginBottom="102dp"
+        android:text="Buscar" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtNi"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="27dp"
+        android:padding="10dp"
+        android:text="Consultar datos de Pokemon"
+        android:textAlignment="center"
+        android:textColor="#FFFF"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtNo"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="345dp"
+        android:layout_marginBottom="12dp"
+        android:text="Nombre"
+        android:textColor="#FFFF" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtNo"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="133dp"
+        android:layout_marginEnd="155dp"
+        android:layout_marginBottom="40dp"
+        android:text="Informacion"
+        android:textAlignment="center"
+        android:textColor="#FFFF" />
+
+</RelativeLayout>

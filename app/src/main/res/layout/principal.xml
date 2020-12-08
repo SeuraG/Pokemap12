@@ -9,8 +9,8 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="323dp"
-        android:layout_height="318dp"
+        android:layout_width="325dp"
+        android:layout_height="206dp"
         android:layout_marginTop="44dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,10 +21,9 @@
         android:id="@+id/ingreso_mapa"
         android:layout_width="181dp"
         android:layout_height="78dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="16dp"
         android:text="@string/ingreso_mapa"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.486"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
@@ -32,33 +31,41 @@
         android:id="@+id/ingreso_perfil"
         android:layout_width="181dp"
         android:layout_height="78dp"
-        android:layout_marginBottom="160dp"
+        android:layout_marginTop="8dp"
         android:text="@string/ingreso_perfil"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.486"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <TextView
-        android:id="@+id/nombreCreador"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="24dp"
-        android:text="Powered By SeuraG"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ingreso_mapa" />
 
     <Button
         android:id="@+id/ingreso_pokemones"
         android:layout_width="181dp"
         android:layout_height="78dp"
+        android:layout_marginTop="12dp"
         android:text="Pokemones"
-        app:layout_constraintBottom_toTopOf="@+id/nombreCreador"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ingreso_perfil"
-        app:layout_constraintVertical_bias="0.357" />
+        app:layout_constraintTop_toBottomOf="@+id/ingreso_perfil" />
+
+    <Button
+        android:id="@+id/ingreso_ubica"
+        android:layout_width="183dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="16dp"
+        android:text="Ubicaciones"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ingreso_pokemones"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Powered BySeuraG"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ingreso_ubica" />
 </androidx.constraintlayout.widget.ConstraintLayout>

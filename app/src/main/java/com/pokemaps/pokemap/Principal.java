@@ -20,6 +20,7 @@ public class Principal extends AppCompatActivity {
     Button botonperfil;
     Button botonmapa;
     Button botonpokemones;
+    Button botonubicaciones;
     SensorManager sensorManager;
     Sensor sensor;
     SensorEventListener sensorEventListener;
@@ -56,10 +57,8 @@ public class Principal extends AppCompatActivity {
         start();
 
 
-
-
         botonperfil = (Button) findViewById(R.id.ingreso_perfil);
-                botonperfil.setOnClickListener(new View.OnClickListener() {
+        botonperfil.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
                         startActivity(new Intent(Principal.this, Perfil.class));
@@ -81,6 +80,13 @@ public class Principal extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(Principal.this,Pokemon.class));
+            }
+        });
+        botonubicaciones = (Button) findViewById(R.id.ingreso_ubica);
+        botonubicaciones.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Principal.this,PrincipalUbicaciones.class));
             }
         });
         getAlertaNotGps();
